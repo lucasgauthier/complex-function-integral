@@ -1,0 +1,10 @@
+# Delay installation of newly published package versions by 7 days (7 * 24 * 60 = 10080 minutes)
+minimumReleaseAge: 10080
+
+# Improve cross-platform compatibility by using a shell emulator for scripts
+shellEmulator: true
+
+trustPolicy: no-downgrade
+
+allowBuilds:
+  esbuild: true
