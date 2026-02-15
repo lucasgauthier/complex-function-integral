@@ -4,7 +4,7 @@ import assert from 'node:assert'
 import { add, complex, multiply } from 'mathjs'
 
 export type ComplexFunction = (t: number) => Complex
-
+ 
 const INCREMENT = 1e-3
 
 /**
