@@ -2,6 +2,7 @@
   "name": "complex-function-integral",
   "type": "module",
   "version": "0.1.0",
+  "packageManager": "pnpm@10.28.2",
   "description": "Complex function integral",
   "author": "Lucas Gauthier",
   "license": "MIT",
