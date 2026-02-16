@@ -1,6 +1,6 @@
 # Complex Function Integral
 
-[`mathjs`](https://mathjs.org) is a powerful library for mathematical operations, including support for complex numbers. Unfortunately, [it does not yet provide a built-in function for computing the integral of a complex function](https://github.com/josdejong/mathjs/discussions/2748).
+[`mathjs`](https://mathjs.org) is a powerful library for mathematical operations, including support for complex numbers. Unfortunately, [it does not yet provide a built-in function for computing integrals](https://github.com/josdejong/mathjs/discussions/2748), and in particular it lacks support for complex function integrals.
 
 This library fills that gap by providing a simple interface to compute the integral of a complex function over the interval `[0, 1]`. The integral is computed using a simple midpoint Riemann sum with a default of 1000 subdivisions.
 
