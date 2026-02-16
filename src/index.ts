@@ -6,7 +6,7 @@ import { add, complex, multiply } from 'mathjs'
 export type ComplexFunction = (t: number) => Complex
 
 const INCREMENT = 1e-3
-
+ 
 /**
  * Computes the integral of a complex-valued function `f(t)` on `[0, 1]` using:
  * - a midpoint Riemann sum for improved accuracy over left/right Riemann sums, and
